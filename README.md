@@ -27,18 +27,23 @@ I am a passionate **Full Stack Developer** with a focus on building scalable web
 
 ### 📊 GitHub Stats
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi+👋,+I'm+Maneesha+Geethanga;Full+Stack+Developer" />
-
-  <p align="center">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=maneesha-geethanga&show_icons=true&theme=radical" alt="GitHub Stats" />
-    <img src="https://streak-stats.demolab.com/?user=maneesha-geethanga&theme=radical" alt="GitHub Streak" />
-  </p>
-
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,php,mysql,java,cs,flutter,arduino" />
+  <table border="0">
+    <tr>
+      <td>
+        <img src="https://raw.githubusercontent.com/ManeeshaGee/ManeeshaGee/main/github-metrics.svg" 
+             alt="Maneesha's GitHub Metrics" 
+             style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 800px;" 
+             width="100%" />
+      </td>
+    </tr>
+  </table>
+  
+  <sub>*Last updated: $(date +'%Y-%m-%d')* • Updates every 24 hours via GitHub Actions</sub>
 </div>
+
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&&width=100&section=footer" />
 </div>
