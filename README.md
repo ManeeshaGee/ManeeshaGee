@@ -3,7 +3,7 @@
   <p align="center">
     <img src="new_profile_bg.png" alt="Featured Image" width="85%" style="border-radius: 15px; border: 2px solid #36BCF7;" />
     <br>
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi+👋,+I'm+Maneesha+Geethanga;Full+Stack+Developer...;Creative+Problem+Solver..." alt="Typing SVG" />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi+👋,+I'm+Maneesha+Geethanga;Full+Stack+Developer+...;Creative+Problem+Solver+..." alt="Typing SVG" />
   </p>
 </div>
 
@@ -43,7 +43,7 @@ I am a passionate **Full Stack Developer** with a focus on building professional
     </tr>
   </table>
   
-  <sub>*Last updated: $(date +'%Y-%m-%d')* • Updates every 24 hours via GitHub Actions</sub>
+  <sub>*Last updated: now() * • Updates every 24 hours via GitHub Actions</sub>
 </div>
 
 
