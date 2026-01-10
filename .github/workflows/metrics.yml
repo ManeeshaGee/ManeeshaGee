@@ -2,8 +2,13 @@ name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # updates daily
+    - cron: "0 0 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+  pull-requests: read
 
 jobs:
   metrics:
@@ -14,6 +19,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: ManeeshaGee
           template: classic
+          base: header, activity, repositories
           languages: yes
-          activity: yes
           isocalendar: yes
