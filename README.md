@@ -7,7 +7,7 @@
 ### 📷 Spotlight
 <div align="center">
   <p align="center">
-    <img src="https://drive.google.com/file/d/1Q8qjeA54mrDG9NZQJlf1af_p7xrsXDML/view" alt="Featured Image" width="85%" style="border-radius: 15px; border: 2px solid #36BCF7;" />
+    <img src="new bg.png" alt="Featured Image" width="85%" style="border-radius: 15px; border: 2px solid #36BCF7;" />
     <br>
     <em>"Code is like humor. When you have to explain it, it’s bad."</em>
   </p>
