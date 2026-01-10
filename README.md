@@ -4,8 +4,19 @@
 
 ---
 
+### 📷 Spotlight
+<div align="center">
+  <p align="center">
+    <img src="https://drive.google.com/file/d/1Q8qjeA54mrDG9NZQJlf1af_p7xrsXDML/view" alt="Featured Image" width="85%" style="border-radius: 15px; border: 2px solid #36BCF7;" />
+    <br>
+    <em>"Code is like humor. When you have to explain it, it’s bad."</em>
+  </p>
+</div>
+
+---
+
 ### 🚀 About Me
-I am a passionate **Full Stack Developer** with a focus on building scalable web and mobile applications. I love exploring new technologies and contributing to open-source projects.
+I am a passionate **Full Stack Developer** with a focus on building professional web and mobile applications. I love exploring new technologies and contributing to open-source projects.
 
 - 🌍 I am based in Sri Lanka
 - ✉️ Connect with me: 
