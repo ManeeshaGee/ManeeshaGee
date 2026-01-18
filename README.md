@@ -42,7 +42,7 @@ I am a passionate **Full Stack Developer** with a focus on building professional
     </tr>
     <tr>
       <td>
-        <img src="github-stats.svg" 
+        <img src="github-metrics.svg" 
              alt="Maneesha's GitHub Metrics" 
              style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 800px;" 
              width="100%" />
