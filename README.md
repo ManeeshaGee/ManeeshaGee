@@ -1,4 +1,3 @@
-
 <div align="center">
   <p align="center">
     <img src="new_profile_bg.png" alt="Featured Image" width="85%" style="border-radius: 15px; border: 2px solid #36BCF7;" />
@@ -43,7 +42,7 @@ I am a passionate **Full Stack Developer** with a focus on building professional
     </tr>
     <tr>
       <td>
-        <img src="hi" 
+        <img src="github-stats.svg" 
              alt="Maneesha's GitHub Metrics" 
              style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 800px;" 
              width="100%" />
