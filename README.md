@@ -40,6 +40,12 @@ I am a passionate **Full Stack Developer** with a focus on building professional
              style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 800px;" 
              width="100%" />
       </td>
+      <td>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=ManeeshaGee" 
+             alt="Maneesha's GitHub Metrics" 
+             style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 800px;" 
+             width="100%" />
+      </td>
     </tr>
   </table>
   
