@@ -31,7 +31,7 @@ I am a passionate **Full Stack Developer** with a focus on building professional
 ---
 
 ### 📊 GitHub Stats
-<div align="center">
+<div>
   <table border="0">
     <tr>
       <td>
