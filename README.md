@@ -35,7 +35,7 @@ I am a passionate **Full Stack Developer** with a focus on building professional
   <table border="0">
     <tr>
       <td>
-        <img src="https://raw.githubusercontent.com/ManeeshaGee/ManeeshaGee/main/github-metrics.svg" 
+        <img src="https://github-readme-stats.vercel.app/api?username=ManeeshaGee&show_icons=true&theme=radical" 
              alt="Maneesha's GitHub Metrics" 
              style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 800px;" 
              width="100%" />
