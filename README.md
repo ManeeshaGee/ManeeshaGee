@@ -48,6 +48,6 @@ I am a passionate **Full Stack Developer** with a focus on building professional
 
 ---
 
-<div align="center">
+<div align="">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&&width=100&section=footer" />
 </div>
