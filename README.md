@@ -33,7 +33,7 @@
       🔹 ⚡ Fun fact: I enjoy blending hardware (Arduino) with software solutions.
     </td>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maneesha-geethanga&layout=compact&theme=radical&border_radius=10&hide_border=true" width="100%" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maneeshagee&layout=compact&theme=radical&border_radius=10&hide_border=true" width="100%" />
     </td>
   </tr>
 </table>
@@ -50,33 +50,33 @@
 ### 📊 Next-Level Metrics
 <div align="center">
   <!-- General Stats Card -->
-  <img src="https://github-readme-stats.vercel.app/api?username=maneesha-geethanga&show_icons=true&theme=radical&rank_icon=github&border_radius=10&include_all_commits=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=maneeshagee&show_icons=true&theme=radical&rank_icon=github&border_radius=10&include_all_commits=true" width="48%" />
   <!-- Streak Stats Card -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=maneeshagee&theme=radical&border_radius=10" width="48%" />
   
   <br/>
 
   <!-- Achievement Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=maneesha-geethanga&theme=radical&column=7&margin-w=15&no-bg=true" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=maneeshagee&theme=radical&column=7&margin-w=15&no-bg=true" width="100%" />
   
   <br/>
   
   <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=maneesha-geethanga&theme=react-dark&border_radius=10&area=true&color=36BCF7" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=maneeshagee&theme=react-dark&border_radius=10&area=true&color=36BCF7" width="100%" />
 </div>
 
 ---
 
 ### 🐍 Contribution Snake Game
 <div align="center">
-  <img src="https://raw.githubusercontent.com/maneesha-geethanga/maneesha-geethanga/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
+  <img src="https://raw.githubusercontent.com/maneeshagee/maneeshagee/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
 </div>
 
 ---
 
 ### 🛠️ GitHub Metrics Infographic
 <div align="center">
-  <img src="https://metrics.lecoq.io/maneesha-geethanga?template=classic&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&config.timezone=Asia%2FColombo" width="100%" />
+  <img src="https://metrics.lecoq.io/maneeshagee?template=classic&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&config.timezone=Asia%2FColombo" width="100%" />
 </div>
 
 ---
