@@ -52,7 +52,7 @@
   <!-- General Stats Card -->
   <img src="https://github-readme-stats.vercel.app/api?username=maneesha-geethanga&show_icons=true&theme=radical&rank_icon=github&border_radius=10&include_all_commits=true" width="48%" />
   <!-- Streak Stats Card -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=maneesha-geethanga&theme=radical&border_radius=10" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=maneeshagee&theme=radical&border_radius=10" width="48%" />
   
   <br/>
 
