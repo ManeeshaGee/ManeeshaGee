@@ -53,7 +53,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN_NEW }}
           user: ManeeshaGee
           base: ""
           
@@ -74,7 +74,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.habits.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN_NEW }}
           user: ManeeshaGee
           base: ""
           
@@ -94,7 +94,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN_NEW }}
           user: ManeeshaGee
           base: ""
           
@@ -111,7 +111,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.compact.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN_NEW }}
           user: ManeeshaGee
           template: classic
           base: header, repositories
