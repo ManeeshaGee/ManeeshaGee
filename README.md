@@ -67,19 +67,6 @@
 
 ---
 
-### 🐍 Contribution Snake Game
-<div align="center">
-  <img src="https://raw.githubusercontent.com/maneeshagee/maneeshagee/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
-</div>
-
----
-
-### 🛠️ GitHub Metrics Infographic
-<div align="center">
-  <img src="https://metrics.lecoq.io/maneeshagee?template=classic&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&config.timezone=Asia%2FColombo" width="100%" />
-</div>
-
----
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=36BCF7&height=100&section=footer" width="100%"/>
