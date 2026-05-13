@@ -2,9 +2,8 @@ name: Generate Metrics & Snake
 
 on:
   schedule:
-    # Runs at 00:00 UTC every day
     - cron: "0 0 * * *"
-  workflow_dispatch: # Allows you to run this manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -12,7 +11,11 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # 1. Generate the Snake animation from your contribution grid
+      # 1. Prepare a clean folder for the files
+      - name: Prepare Folder
+        run: mkdir -p dist
+
+      # 2. Generate the Snake animation
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -23,34 +26,25 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. Generate the Advanced Infographic (Metrics)
+      # 3. Generate Advanced Metrics
       - name: GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          # Using your custom token name here
           token: ${{ secrets.MY_METRICS_TOKEN }}
-          
-          # Options
           user: maneeshagee
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Colombo
           
-          # Output file location
+          # CRITICAL SETTINGS:
           filename: github-metrics.svg
+          output_action: none # This prevents it from committing to the main branch!
           
-          # We tell metrics to save the file to the 'dist' folder 
-          # so we can push it together with the snake
-          output_action: none 
-      
-      # Move metrics to dist folder if it wasn't saved there
+      # 4. Manually move the metrics file to the dist folder
       - name: Move Metrics to dist
-        run: |
-          mkdir -p dist
-          mv github-metrics.svg dist/ 2>/dev/null || true
+        run: mv github-metrics.svg dist/
 
-      # 3. Push the generated files to the 'output' branch
-      # This branch is used only for hosting your SVG images
+      # 5. Push EVERYTHING in the dist folder to the 'output' branch
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
