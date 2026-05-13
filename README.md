@@ -35,10 +35,10 @@
 const maneesha = {
   role        : "Full-Stack Developer",
   location    : "Sri Lanka 🇱🇰",
-  currentFocus: "Building scalable, impactful web applications",
-  learning    : ["System Design", "Cloud Architecture", "DevOps"],
-  interests   : ["Open Source", "Clean Code", "UI/UX Design"],
-  funFact     : "I debug with console.log and I'm not ashamed 😄",
+  currentFocus: "Building reliable, professional web applications",
+  learning    : ["Artificial Intelligence", "Cloud Architecture", "DevOps"],
+  interests   : ["Open Source", "Clean Code", "Backend Engineering"],
+  funFact     : "Sometimes, I debug with console.log and I'm not ashamed 😄",
 };
 ```
 
@@ -74,7 +74,6 @@ const maneesha = {
 ### 🗄️ Database & Cloud
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
