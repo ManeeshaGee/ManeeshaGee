@@ -3,14 +3,18 @@ name: Generate Metrics & Snake
 on:
   schedule:
     - cron: "0 0 * * *" # Runs every 24 hours
-  workflow_dispatch: # Allows you to run it manually
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       # 1. Generate the Snake Animation
-      - name: generate-snake-game-from-github-contribution-grid
+      - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: ManeeshaGee
@@ -20,20 +24,20 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_METRICS_TOKEN }}
 
-      # 2. Generate Advanced Infographics (Lowlighter Metrics)
-      - name: GitHub Metrics
-        uses: lowlighter/metrics@latest
+      # 2. Generate GitHub Metrics
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@v3
         with:
           token: ${{ secrets.MY_METRICS_TOKEN }}
           user: ManeeshaGee
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Colombo
-          filename: github-metrics.svg
+          filename: dist/github-metrics.svg
 
-      # 3. Push the generated files to a branch called "output"
+      # 3. Push generated files to "output" branch
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
