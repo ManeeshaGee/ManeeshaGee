@@ -1,54 +1,87 @@
-name: Generate Metrics & Snake
+name: GitHub Profile Metrics & Snake
 
 on:
   schedule:
+    # Runs snake every 24 hours at midnight UTC
     - cron: "0 0 * * *"
-  workflow_dispatch:
+    # Runs metrics every Sunday at midnight UTC
+    - cron: "0 0 * * 0"
+  workflow_dispatch: # Allows manual triggering from the Actions tab
+  push:
+    branches:
+      - main
 
 jobs:
-  generate:
+  # ─────────────────────────────────────────
+  # JOB 1: Generate Contribution Snake SVG
+  # ─────────────────────────────────────────
+  generate-snake:
+    name: 🐍 Generate Contribution Snake
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
-    steps:
-      # 1. Prepare a clean folder for the files
-      - name: Prepare Folder
-        run: mkdir -p dist
 
-      # 2. Generate the Snake animation
-      - name: Generate Snake
-        uses: Platane/snk@v3
+    steps:
+      - name: Generate snake animation
+        uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: maneeshagee
+          github_user_name: ManeeshaGee
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 3. Generate Advanced Metrics
-      - name: GitHub Metrics
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.MY_METRICS_TOKEN }}
-          user: maneeshagee
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Colombo
-          
-          # CRITICAL SETTINGS:
-          filename: github-metrics.svg
-          output_action: none # This prevents it from committing to the main branch!
-          
-      # 4. Manually move the metrics file to the dist folder
-      - name: Move Metrics to dist
-        run: mv github-metrics.svg dist/
-
-      # 5. Push EVERYTHING in the dist folder to the 'output' branch
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push snake to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.My_METRICS_TOKEN }}
+
+  # ─────────────────────────────────────────
+  # JOB 2: Generate GitHub Metrics SVG
+  # ─────────────────────────────────────────
+  generate-metrics:
+    name: 📈 Generate GitHub Metrics
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Generate GitHub metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.My_METRICS_TOKEN }}
+          user: ManeeshaGee
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Colombo
+
+          # ── Plugin: Languages ──
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
+
+          # ── Plugin: Stars ──
+          plugin_stars: yes
+          plugin_stars_limit: 4
+
+          # ── Plugin: Habits ──
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+          # ── Plugin: Activity ──
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+
+          # ── Output ──
+          filename: github-metrics.svg
+          output_action: gist
+          committer_branch: output
+          committer_message: "chore: update metrics [skip ci]"
