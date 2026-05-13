@@ -138,23 +138,15 @@ const maneesha = {
 
 <div align="center">
 
-<a href="https://github.com/ManeeshaGee/project-one">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ManeeshaGee&repo=project-one&theme=radical&border_radius=10" />
+<a href="https://github.com/Viraj-Dias/fintrack">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Dia&repo=fintrack&theme=radical&border_radius=10" />
 </a>
 &nbsp;
-<a href="https://github.com/ManeeshaGee/project-two">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ManeeshaGee&repo=project-two&theme=radical&border_radius=10" />
+<a href="https://github.com/Nepul1234/TCMS-TEXAS">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nepul1234/&repo=TCMS-TEXAS&theme=radical&border_radius=10" />
 </a>
 
 <br/><br/>
-
-<a href="https://github.com/ManeeshaGee/project-three">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ManeeshaGee&repo=project-three&theme=radical&border_radius=10" />
-</a>
-&nbsp;
-<a href="https://github.com/ManeeshaGee/project-four">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ManeeshaGee&repo=project-four&theme=radical&border_radius=10" />
-</a>
 
 </div>
 
