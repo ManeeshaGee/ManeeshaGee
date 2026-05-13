@@ -150,7 +150,6 @@ const maneesha = {
 
 </div>
 
-> 💡 **Tip:** Replace `project-one`, `project-two`, etc. with your actual repository names to show live pinned cards.
 
 ---
 
