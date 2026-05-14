@@ -133,21 +133,7 @@ const maneesha = {
 
 ---
 
-## 🚀 Featured Projects
 
-<div align="center">
-
-<a href="https://github.com/Viraj-Dias/fintrack">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viraj-Dia&repo=fintrack&theme=radical&border_radius=10" />
-</a>
-&nbsp;
-<a href="https://github.com/Nepul1234/TCMS-TEXAS">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nepul1234/&repo=TCMS-TEXAS&theme=radical&border_radius=10" />
-</a>
-
-<br/><br/>
-
-</div>
 
 
 ---
