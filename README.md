@@ -100,8 +100,7 @@ const maneesha = {
 
 <br/>
 
-<!-- Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=maneeshagee&theme=radical&border_radius=10" width="97%" />
+
 
 <br/>
 
