@@ -1,8 +1,3 @@
-The end of the markdown file is the closing `</div>` tag for the footer image. 
-
-Here is the complete file from the very first line to the very last line:
-
-```markdown
 <div align="center">
 
 <!-- Header Banner -->
@@ -167,4 +162,3 @@ const maneesha = {
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=36BCF7&height=100&section=footer" width="100%"/>
 </div>
-```
