@@ -89,15 +89,11 @@ const maneesha = {
 
 ---
 
-## 📊 GitHub Metrics Dashboard
-
-<div align="center">
-
-## My Contribution Graph
+## 📊 My Contribution Graph
 
 <!-- [game-name] -->
 <picture>
-    <img alt="[game-name] contribution graph" src="https://raw.githubusercontent.com/lakipop/lakipop/output/pacman-contribution-graph.svg">
+    <img alt="[game-name] contribution graph" src="https://raw.githubusercontent.com/maneeshagee/maneeshagee/output/pacman-contribution-graph.svg">
 </picture>
 
 </div>
