@@ -106,15 +106,6 @@ const maneesha = {
 
 ---
 
-## 🔥 Working Activity & Streaks
-
-<div align="center">
-
-<!-- Working Stats / Streak Card -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=maneeshagee&theme=radical&border_radius=10" width="100%" alt="GitHub Streak Stats" />
-
-</div>
-
 ---
 
 ## 📈 Advanced Weekly Metrics
