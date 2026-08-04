@@ -93,15 +93,14 @@ const maneesha = {
 
 <div align="center">
 
-<!-- General Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=maneeshagee&show_icons=true&theme=radical&rank_icon=github&border_radius=10&include_all_commits=true" width="48%" />
-<!-- Language Stats -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maneeshagee&layout=compact&theme=radical&border_radius=10" width="48%" />
+## My Contribution Graph
 
-<br/>
-
-<!-- Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=maneeshagee&theme=radical&column=7&margin-w=15&no-bg=true" width="100%" />
+<!-- [game-name] -->
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maneeshagee/maneeshagee/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maneeshagee/maneeshagee/output/pacman-contribution-graph.svg">
+    <img alt="[game-name] contribution graph" src="https://raw.githubusercontent.com/maneeshagee/maneeshagee/output/pacman-contribution-graph.svg">
+</picture>
 
 </div>
 
