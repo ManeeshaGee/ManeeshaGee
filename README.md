@@ -93,7 +93,7 @@ const maneesha = {
 
 <!-- [game-name] -->
 <picture>
-    <img alt="[game-name] contribution graph" src="https://raw.githubusercontent.com/ManeeshaGee/ManeeshaGee/output/pacman-contribution-graph.svg">
+    <img alt="[game-name] contribution graph" src="snake-dark.svg">
 </picture>
 
 </div>
