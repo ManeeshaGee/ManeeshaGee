@@ -107,7 +107,7 @@ const maneesha = {
 <div align="center">
 
 <!-- Auto-generated every week via GitHub Actions workflow -->
-<img src="https://raw.githubusercontent.com/maneeshagee/maneeshagee/output/github-metrics.svg" alt="Detailed Metrics" width="100%" />
+<img src="https://raw.githubusercontent.com/maneeshagee/maneeshagee/output/github-metrics.svg" alt="Detailed Metrics" width="50%" height="50%" />
 
 </div>
 
