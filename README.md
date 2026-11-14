@@ -1,7 +1,8 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=36BCF7&height=250&section=header&text=Maneesha%20Geethanga&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" />
+<!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=36BCF7&height=250&section=header&text=Maneesha%20Geethanga&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" /> -->
+<img src="waving-flag-white.svg" alt="Featured Image" width="100%" style="border-radius: 20px;" />
 
 <!-- Profile Image -->
 <img src="new_profile_bg.png" alt="Featured Image" width="85%" style="border-radius: 20px; border: 3px solid #36BCF7;" />
